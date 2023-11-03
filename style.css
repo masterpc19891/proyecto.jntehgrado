@@ -1,0 +1,147 @@
+body {
+    background-image: url(''); /* Reemplaza 'ruta/de/la/imagen.jpg' con la ubicación de tu imagen */
+    background: size 200px /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    
+}
+
+ul{
+    margin: 5px 0;
+    padding: 50px;
+
+    box-shadow: 10px 20px 70px brown; /* Agregar sombra */
+}
+a {
+    text-decoration: none; /* Quita el subrayado predeterminado */
+    color:yellow; /* Color del texto de los enlaces (puedes cambiarlo) */
+}
+
+/* Cambia el color al pasar el cursor por encima */
+a:hover {
+    color:lawngreen; /* Cambia el color al pasar el cursor por encima */
+}
+h1{
+    color:red;
+    border:5px;
+    border-color:yellowgreen;
+    border-radius: 5px;
+}
+h2{
+    color: red;
+}
+.enlace-boton {
+    text-decoration: none; /* Quita el subrayado del enlace */
+}
+
+.enlace-boton button {
+    background-color: #3366cc;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.enlace-boton button:hover {
+    background-color: #204080; /* Cambia el color cuando se pasa el ratón por encima */
+}
+/* Estilos generales para los botones de redes sociales */
+.social-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-buttons a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    border: 2px solid #ccc;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    border-radius: 5px;
+}
+
+/* Estilos específicos para cada botón */
+.facebook-button {
+    background-color: #1877f2;
+    color: #fff;
+}
+
+.whatsapp-button {
+    background-color: #1da1f2;
+    color: #fff;
+}
+
+.instagram-button {
+    background-color: #bc2a8d;
+    color: #fff;
+}
+p{
+    color: #1da1f2;
+}
+/* Estilos iniciales para el enlace */
+a {
+    font-size: 16px; /* Tamaño de fuente predeterminado */
+    text-decoration: none; /* Elimina el subrayado predeterminado */
+  }
+
+  /* Estilo cuando el enlace se selecciona (hover) */
+  a:hover {
+    font-size: 20px; /* Tamaño de fuente al pasar el mouse sobre el enlace */
+  }
+
+  /* Estilo para otros elementos interactivos (por ejemplo, botones) cuando se enfocan */
+  button:focus, input:focus {
+    font-size: 20px; /* Tamaño de fuente cuando el elemento se enfoca */
+  }
+
+  @keyframes movimiento {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(100px); /* Define la distancia del movimiento */
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .texto-en-movimiento {
+    animation: movimiento 3s linear infinite; /* Define la duración y repetición de la animación */
+  }
+
+  body {
+    width: auto; /* Establece el ancho de la caja que contendrá la imagen */
+    height: 2000px;; /* Establece la altura de la caja que contendrá la imagen */
+    background-image: url('https://img.freepik.com/foto-gratis/fondo-musical-volumetrico-clave-sol-notas-generativas-ai_169016-29576.jpg'); /* Reemplaza 'imagen-retina.jpg' con la ruta de tu imagen de alta resolución */
+    background-size: 100% 100%; /* Ajusta el tamaño de la imagen al 100% del ancho y alto de la caja */
+  }
+  li{
+    color:gold;
+  }
+  h4{
+    color:aqua;
+  }
+ h3{
+    color: aqua;
+ }
+ /* Estilos CSS para el menú */
+ ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color:aqua; /* Color del texto del enlace */
+    font-weight: bold; /* Texto en negritas */
+}
+  
